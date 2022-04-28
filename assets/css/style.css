@@ -229,12 +229,12 @@ main {
 .home p {
     animation: zoom 8s;
 }
-/* 
+
 @keyframes zoom {
     0% {
       transform: scale(1.5);
     }
-  }  */
+  } 
 
 
 /* Responsividade */
@@ -461,6 +461,21 @@ main {
     .social-media i {
         font-size: 1.3rem;
     }
+
+    /* animação */
+    .home h2 {
+        animation: zoom 5s;
+    }
+    
+    .home p {
+        animation: zoom 5s;
+    }
+    
+    @keyframes zoom {
+        0% {
+          transform: scale(1.5);
+        }
+      } 
 
 }
 
